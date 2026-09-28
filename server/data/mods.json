@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ejemplo",
+    "name": "Mod de ejemplo",
+    "version": "1.0.0",
+    "fileName": "test-mod-1.0.jar",
+    "url": "http://localhost:3001/files/mods/test-mod-1.0.jar",
+    "sha256": "f3a7a67ab20351ddf47e87ecbf0e5a0868fc0e257d0aea65d018b0405b9a34f3"
+  }
+]

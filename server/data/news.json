@@ -1,0 +1,18 @@
+[
+  {
+    "id": "n1",
+    "title": "¡Abrimos el servidor!",
+    "date": "2026-09-20T18:00:00Z",
+    "category": "server",
+    "content": "## Bienvenidos\nYa pueden entrar al servidor.",
+    "image": null
+  },
+  {
+    "id": "n2",
+    "title": "Launcher v0.1.0",
+    "date": "2026-09-27T12:00:00Z",
+    "category": "launcher",
+    "content": "Primera versión del launcher con **auto-instalación de mods**.",
+    "image": null
+  }
+]

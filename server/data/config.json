@@ -1,0 +1,7 @@
+{
+    "minecraft": "1.21.1",
+    "java": "21",
+    "loader": {"type": "NeoForge", "version": "21.1.251"},
+    "server": {"name": "", "host": "", "port": 25565},
+    "ram": {"min": 2040, "max": 4096}
+}

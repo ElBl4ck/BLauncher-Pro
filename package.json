@@ -1,0 +1,51 @@
+{
+  "name": "blauncher",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev:vite": "vite",
+    "compile:electron": "tsc -p electron/tsconfig.json && node -e \"require('fs').writeFileSync('dist-electron/package.json', '{\\\"type\\\":\\\"commonjs\\\"}')\"",
+    "dev:electron": "npm run compile:electron && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron .",
+    "build:renderer": "vite build",
+    "build:electron": "npm run compile:electron",
+    "build": "npm run build:renderer && npm run build:electron",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "dev:server": "node --watch server/index.js",
+    "dev": "concurrently -k \"npm run dev:server\" \"npm run dev:vite\" \"wait-on tcp:5173 tcp:3001 && npm run dev:electron\"",
+    "start:server": "node server/index.js",
+    "hash": "node server/tools/hash.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "msmc": "^5.0.5",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "electron": "^44.4.5",
+    "electron-builder": "^26.15.3",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.69.0",
+    "vite": "^8.3.0",
+    "wait-on": "^9.1.0"
+  }
+}
