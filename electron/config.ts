@@ -6,7 +6,21 @@ import path from 'node:path';
 export const API_URL = process.env.LAUNCHER_API_URL ?? 'http://localhost:3001';
 
 // Carpeta propia del launcher, aislada de cualquier .minecraft existente
-export const GAME_DIR = path.join(app.getPath('userData'), 'game');
+
+export const GAME_ID = 'blauncher';
+
+function carpetaDelJuego(): string {
+  const base =
+    process.platform === 'win32'
+      ? process.env.APPDATA ?? ''
+      : process.platform === 'darwin'
+        ? path.join(process.env.HOME ?? '', 'Library', 'Application Support')
+        : process.env.HOME ?? '';
+  const id = GAME_ID.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+  return path.join(base, process.platform === 'darwin' ? id : `.${id}`);
+}
+
+export const GAME_DIR = carpetaDelJuego();
 export const MODS_DIR = path.join(GAME_DIR, 'mods');
 export const MANIFEST_PATH = path.join(GAME_DIR, 'mods-manifest.json');
 

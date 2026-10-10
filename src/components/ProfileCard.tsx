@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { AuthSession } from '../../electron/types';
 
+
 interface Props {
   session: AuthSession;
   onLogout: () => void;
@@ -12,7 +13,7 @@ export default function ProfileCard({ session, onLogout, onRelink }: Props) {
   const [avatarFalla, setAvatarFalla] = useState(false);
 
   return (
-    <div className="flex items-center gap-3 rounded-xl bg-zinc-900 px-4 py-2" title={session.linkError}>
+    <div className="flex items-center gap-3 px-4 p-[10px] py-2 bg-[#111111] m-[10px] rounded-[10px] w-[210px] border-solid border-[.5px] border-zinc-700" title={session.linkError}>
       {avatarFalla || session.dev ? (
         <div className="grid h-10 w-10 place-items-center rounded bg-zinc-700 font-bold">
           {session.name[0].toUpperCase()}
@@ -21,25 +22,27 @@ export default function ProfileCard({ session, onLogout, onRelink }: Props) {
         <img
           src={`https://mc-heads.net/avatar/${session.uuid}/64`}
           alt={session.name}
-          className="h-10 w-10 rounded"
+          className="h-[40px] w-auto rounded-[5px]"
           onError={() => setAvatarFalla(true)}
         />
       )}
 
-      <div>
-        <p className="font-semibold leading-tight">
+      <div className="mx-[15px]">
+        <p className="  font-semibold leading-tight">
           {session.name}
           {session.dev && <span className="ml-2 rounded bg-amber-500/20 px-1.5 text-xs text-amber-400">DEV</span>}
         </p>
         <p className={`text-xs ${session.linked ? 'text-emerald-400' : 'text-amber-400'}`}>
-          ● {session.linked ? 'Conectado' : 'Sin vincular'}
+           {session.linked ? 'Conectado' : 'Sin vincular'}
         </p>
       </div>
 
       {!session.linked && (
         <button onClick={onRelink} className="text-sm text-violet-400 hover:underline">Reintentar</button>
       )}
-      <button onClick={onLogout} className="ml-2 text-sm text-zinc-400 hover:text-white">Cerrar sesión</button>
+      <button onClick={onLogout} className="ml-[5px] bg-{logout} rounded-[2px] h-[20px] text-sm border-none hover:text-white hover:bg-zinc-800">
+       <span>Logout</span>
+      </button>
     </div>
   );
 }

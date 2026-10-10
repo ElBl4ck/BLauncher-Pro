@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer } from 'electron';
-import type { SyncProgress } from './types';
+import type { GameProgress, SyncProgress } from './types';
 
 // Único puente entre React y Electron. Solo exponemos funciones concretas,
 // nunca ipcRenderer completo.
@@ -15,5 +15,12 @@ contextBridge.exposeInMainWorld('launcherAPI', {
     const listener = (_e: unknown, data: SyncProgress) => callback(data);
     ipcRenderer.on('mods:progress', listener);
     return () => ipcRenderer.removeListener('mods:progress', listener);
+  },
+  
+  gamePlay: () => ipcRenderer.invoke('game:play'),
+  onGameProgress: (callback: (p: GameProgress) => void) => {
+    const listener = (_e: unknown, data: GameProgress) => callback(data);
+    ipcRenderer.on('game:progress', listener);
+    return () => ipcRenderer.removeListener('game:progress', listener);
   },
 });

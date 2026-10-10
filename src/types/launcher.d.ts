@@ -1,4 +1,4 @@
-import type { AuthResult, SyncProgress, SyncResult } from '../../electron/types';
+import type { AuthResult, GameProgress, GameResult, SyncProgress, SyncResult } from '../../electron/types';
 
 declare global {
   interface Window {
@@ -9,6 +9,8 @@ declare global {
       authLogin: () => Promise<AuthResult>;
       authLogout: () => Promise<void>;
       authRelink: () => Promise<AuthResult>;
+      gamePlay: () => Promise<GameResult>;
+      onGameProgress: (callback: (p: GameProgress) => void) => () => void;
     };
   }
 }

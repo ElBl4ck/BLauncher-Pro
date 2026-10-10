@@ -1,7 +1,7 @@
 {
-    "minecraft": "1.21.1",
-    "java": "21",
-    "loader": {"type": "NeoForge", "version": "21.1.251"},
-    "server": {"name": "", "host": "", "port": 25565},
-    "ram": {"min": 2040, "max": 4096}
+  "minecraft": "1.20.1",
+  "loader": { "type": "fabric", "version": "0.19.5" },
+  "server": { "name": "Mi Servidor", "host": "play.tuservidor.com", "port": 25565 },
+  "java": { "major": 17 },
+  "ram": { "minMb": 2048, "recommendedMb": 4096 }
 }

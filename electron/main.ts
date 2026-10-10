@@ -9,10 +9,11 @@ let mainWindow: BrowserWindow | null = null;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 1000,
-    height: 700,
-    minWidth: 800,
+    width: 800,
+    height: 600,
+    minWidth: 1000,
     minHeight: 600,
+    resizable: false,
     // Fondo oscuro por defecto mientras carga (evita flash blanco)
     backgroundColor: '#0f0f10',
     webPreferences: {

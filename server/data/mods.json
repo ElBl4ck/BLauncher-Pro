@@ -1,10 +1,250 @@
 [
   {
-    "id": "ejemplo",
-    "name": "Mod de ejemplo",
+    "id": "architectury-9-2-14-fabric",
+    "name": "architectury-9.2.14-fabric",
     "version": "1.0.0",
-    "fileName": "test-mod-1.0.jar",
-    "url": "http://localhost:3001/files/mods/test-mod-1.0.jar",
-    "sha256": "f3a7a67ab20351ddf47e87ecbf0e5a0868fc0e257d0aea65d018b0405b9a34f3"
+    "fileName": "architectury-9.2.14-fabric.jar",
+    "url": "http://localhost:3001/files/mods/architectury-9.2.14-fabric.jar",
+    "sha256": "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321"
+  },
+  {
+    "id": "badoptimizations-2-4-1-1-20-1",
+    "name": "BadOptimizations-2.4.1-1.20.1",
+    "version": "1.0.0",
+    "fileName": "BadOptimizations-2.4.1-1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/BadOptimizations-2.4.1-1.20.1.jar",
+    "sha256": "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8"
+  },
+  {
+    "id": "chat-heads-0-15-7-fabric-1-20",
+    "name": "chat_heads-0.15.7-fabric-1.20",
+    "version": "1.0.0",
+    "fileName": "chat_heads-0.15.7-fabric-1.20.jar",
+    "url": "http://localhost:3001/files/mods/chat_heads-0.15.7-fabric-1.20.jar",
+    "sha256": "bb44a9edba4a2f7943e624342ae22d9f1048b23db4ac3037a4fa6b792af08eb9"
+  },
+  {
+    "id": "cloth-config-11-1-136-fabric",
+    "name": "cloth-config-11.1.136-fabric",
+    "version": "1.0.0",
+    "fileName": "cloth-config-11.1.136-fabric.jar",
+    "url": "http://localhost:3001/files/mods/cloth-config-11.1.136-fabric.jar",
+    "sha256": "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa"
+  },
+  {
+    "id": "clumps-fabric-1-20-1-12-0-0-4",
+    "name": "Clumps-fabric-1.20.1-12.0.0.4",
+    "version": "1.0.0",
+    "fileName": "Clumps-fabric-1.20.1-12.0.0.4.jar",
+    "url": "http://localhost:3001/files/mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
+    "sha256": "2eb70931dee86cef68c8538b8284c684225964632cd10e636ea938af6f66e6f7"
+  },
+  {
+    "id": "controlling-fabric-1-20-1-12-0-2",
+    "name": "Controlling-fabric-1.20.1-12.0.2",
+    "version": "1.0.0",
+    "fileName": "Controlling-fabric-1.20.1-12.0.2.jar",
+    "url": "http://localhost:3001/files/mods/Controlling-fabric-1.20.1-12.0.2.jar",
+    "sha256": "f7bbb7e37f2118af29450ec468d3ce4ec2606fead2861f4092a43509c6803ed6"
+  },
+  {
+    "id": "cwb-fabric-3-0-0-mc1-20",
+    "name": "cwb-fabric-3.0.0+mc1.20",
+    "version": "1.0.0",
+    "fileName": "cwb-fabric-3.0.0+mc1.20.jar",
+    "url": "http://localhost:3001/files/mods/cwb-fabric-3.0.0+mc1.20.jar",
+    "sha256": "3a5974fc1fb82eed22e759aa788c3c387402a25042ccf8865678be06a1c4d6fb"
+  },
+  {
+    "id": "debugify-1-20-1-2-0",
+    "name": "Debugify-1.20.1+2.0",
+    "version": "1.0.0",
+    "fileName": "Debugify-1.20.1+2.0.jar",
+    "url": "http://localhost:3001/files/mods/Debugify-1.20.1+2.0.jar",
+    "sha256": "c61b78a7609c989578e98837047bc026d32654a0ad55f9118bb35f295536949d"
+  },
+  {
+    "id": "dynamic-fps-3-11-4-minecraft-1-20-0-fabric",
+    "name": "dynamic-fps-3.11.4+minecraft-1.20.0-fabric",
+    "version": "1.0.0",
+    "fileName": "dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+    "url": "http://localhost:3001/files/mods/dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+    "sha256": "d143dcde4680fc9bd706b535728b04ff973e099bd5477f87ffa399eef76619ab"
+  },
+  {
+    "id": "entityculling-fabric-1-11-3-mc1-20-1",
+    "name": "entityculling-fabric-1.11.3-mc1.20.1",
+    "version": "1.0.0",
+    "fileName": "entityculling-fabric-1.11.3-mc1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/entityculling-fabric-1.11.3-mc1.20.1.jar",
+    "sha256": "8944942832e93d717bac4639c27dbc7fb883453002982304393edad3b38cd171"
+  },
+  {
+    "id": "fabric-api",
+    "name": "Fabric API",
+    "version": "0.92.12+1.20.1",
+    "fileName": "fabric-api-0.92.12+1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/fabric-api-0.92.12+1.20.1.jar",
+    "sha256": "4197ff4fbdac13cffccd267c1bc59e9fbabb2b5683a9d5f8023f4b5ea16a1c1e"
+  },
+  {
+    "id": "iris-1-7-6-mc1-20-1",
+    "name": "iris-1.7.6+mc1.20.1",
+    "version": "1.0.0",
+    "fileName": "iris-1.7.6+mc1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/iris-1.7.6+mc1.20.1.jar",
+    "sha256": "9eb15e563e0c9ae6eff15b7863f8432dd290cf9f724c7373e9b15b14aa829ed5"
+  },
+  {
+    "id": "jade-1-20-fabric-11-13-3",
+    "name": "Jade-1.20-Fabric-11.13.3",
+    "version": "1.0.0",
+    "fileName": "Jade-1.20-Fabric-11.13.3.jar",
+    "url": "http://localhost:3001/files/mods/Jade-1.20-Fabric-11.13.3.jar",
+    "sha256": "5a2830f6e5edabbb632c33eed5b9cabf45495ccb937c976a3656efe74a183375"
+  },
+  {
+    "id": "kubejs-fabric-2001-6-5-build-26",
+    "name": "kubejs-fabric-2001.6.5-build.26",
+    "version": "1.0.0",
+    "fileName": "kubejs-fabric-2001.6.5-build.26.jar",
+    "url": "http://localhost:3001/files/mods/kubejs-fabric-2001.6.5-build.26.jar",
+    "sha256": "e1a3f3fe1190635b8fe6469e28c21969f17183a0fafb3e69c21709c564894923"
+  },
+  {
+    "id": "lambdynamiclights-4-4-0-1-20-1",
+    "name": "lambdynamiclights-4.4.0+1.20.1",
+    "version": "1.0.0",
+    "fileName": "lambdynamiclights-4.4.0+1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/lambdynamiclights-4.4.0+1.20.1.jar",
+    "sha256": "074d6c79e002790b696ebcfdd4ff2a2d57ec55228f93b47e952eeebd5baf5301"
+  },
+  {
+    "id": "lithium-fabric-mc1-20-1-0-11-4",
+    "name": "lithium-fabric-mc1.20.1-0.11.4",
+    "version": "1.0.0",
+    "fileName": "lithium-fabric-mc1.20.1-0.11.4.jar",
+    "url": "http://localhost:3001/files/mods/lithium-fabric-mc1.20.1-0.11.4.jar",
+    "sha256": "76133efe92aea907cf75562d9e26517deb170e2580e1ecd4979da2c8902de782"
+  },
+  {
+    "id": "lootjs-fabric-1-20-1-2-13-1",
+    "name": "lootjs-fabric-1.20.1-2.13.1",
+    "version": "1.0.0",
+    "fileName": "lootjs-fabric-1.20.1-2.13.1.jar",
+    "url": "http://localhost:3001/files/mods/lootjs-fabric-1.20.1-2.13.1.jar",
+    "sha256": "63a0de24b5309e43e7e2aa97845b48a4e9c1a136e5a4fa014daa8420ace95e90"
+  },
+  {
+    "id": "memoryleakfix-fabric-1-17--1-1-5",
+    "name": "memoryleakfix-fabric-1.17+-1.1.5",
+    "version": "1.0.0",
+    "fileName": "memoryleakfix-fabric-1.17+-1.1.5.jar",
+    "url": "http://localhost:3001/files/mods/memoryleakfix-fabric-1.17+-1.1.5.jar",
+    "sha256": "b8ac33d7262e019710dd25e454116616bc9ed1f714ed910594b28a4c1da5adde"
+  },
+  {
+    "id": "modelfix-1-15-fabric",
+    "name": "modelfix-1.15-fabric",
+    "version": "1.0.0",
+    "fileName": "modelfix-1.15-fabric.jar",
+    "url": "http://localhost:3001/files/mods/modelfix-1.15-fabric.jar",
+    "sha256": "f6a7b7b6787d3aea9e48964f4abc763a7a09f9c108fb01f6d183be54953b26ba"
+  },
+  {
+    "id": "modernfix-fabric-5-25-2-mc1-20-1",
+    "name": "modernfix-fabric-5.25.2+mc1.20.1",
+    "version": "1.0.0",
+    "fileName": "modernfix-fabric-5.25.2+mc1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
+    "sha256": "5c1f852046e62a17056bb6b571164e61644076c5eb9029c92b31e337cc62c0d9"
+  },
+  {
+    "id": "modmenu-7-2-2",
+    "name": "modmenu-7.2.2",
+    "version": "1.0.0",
+    "fileName": "modmenu-7.2.2.jar",
+    "url": "http://localhost:3001/files/mods/modmenu-7.2.2.jar",
+    "sha256": "a041b0f0305ffa5eb90120aa23768e1cfbb27583904b1751e3783c0f69382f1a"
+  },
+  {
+    "id": "moreculling-1-20-1-0-24-6",
+    "name": "moreculling-1.20.1-0.24.6",
+    "version": "1.0.0",
+    "fileName": "moreculling-1.20.1-0.24.6.jar",
+    "url": "http://localhost:3001/files/mods/moreculling-1.20.1-0.24.6.jar",
+    "sha256": "6ba025225149a19ff152a83198c1c10cc321e9e8a7706f7c77f25523ece89854"
+  },
+  {
+    "id": "mousetweaks-fabric-mc1-20-2-26",
+    "name": "MouseTweaks-fabric-mc1.20-2.26",
+    "version": "1.0.0",
+    "fileName": "MouseTweaks-fabric-mc1.20-2.26.jar",
+    "url": "http://localhost:3001/files/mods/MouseTweaks-fabric-mc1.20-2.26.jar",
+    "sha256": "1eb9f0c7878598a3a7dfb52cd0e8159ebf8b33b04e6df232534fed2fbb6616e4"
+  },
+  {
+    "id": "reeses-sodium-options-1-7-2-mc1-20-1-build-101",
+    "name": "reeses_sodium_options-1.7.2+mc1.20.1-build.101",
+    "version": "1.0.0",
+    "fileName": "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+    "url": "http://localhost:3001/files/mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+    "sha256": "627b6b90e30d18de49dd8960afd5c8b530cf2c6f21b248d14a848d1023ff0bec"
+  },
+  {
+    "id": "rhino-fabric-2001-2-3-build-10",
+    "name": "rhino-fabric-2001.2.3-build.10",
+    "version": "1.0.0",
+    "fileName": "rhino-fabric-2001.2.3-build.10.jar",
+    "url": "http://localhost:3001/files/mods/rhino-fabric-2001.2.3-build.10.jar",
+    "sha256": "e205fac40f7f27abfa284b00f62d9c1cbd6da494a64cb984ebadd9d76ff5f3ee"
+  },
+  {
+    "id": "searchables-fabric-1-20-1-1-0-3",
+    "name": "Searchables-fabric-1.20.1-1.0.3",
+    "version": "1.0.0",
+    "fileName": "Searchables-fabric-1.20.1-1.0.3.jar",
+    "url": "http://localhost:3001/files/mods/Searchables-fabric-1.20.1-1.0.3.jar",
+    "sha256": "f32e0b0c9bebc99944ddc6a9dba8f8336af666aaba151c6839b8353a2acdd53a"
+  },
+  {
+    "id": "sodium-extra-0-5-9-mc1-20-1",
+    "name": "sodium-extra-0.5.9+mc1.20.1",
+    "version": "1.0.0",
+    "fileName": "sodium-extra-0.5.9+mc1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/sodium-extra-0.5.9+mc1.20.1.jar",
+    "sha256": "5cae656838b595e27d5133264374e5d90f5f35a39e343bfc5a76b908fec97c9f"
+  },
+  {
+    "id": "sodium",
+    "name": "Sodium",
+    "version": "0.5.13",
+    "fileName": "sodium-fabric-0.5.13+mc1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/sodium-fabric-0.5.13+mc1.20.1.jar",
+    "sha256": "688c26029ce69f0b1f7cf936866656ca6723228ac46c4aef5b5f793b1e6abd22"
+  },
+  {
+    "id": "sodiumoptionsapi-fabric-1-0-10-1-20-1",
+    "name": "sodiumoptionsapi-fabric-1.0.10-1.20.1",
+    "version": "1.0.0",
+    "fileName": "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+    "url": "http://localhost:3001/files/mods/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+    "sha256": "2e34c4ecac29d2ae363d433b5104aae986161e887252e145fa84a27d04761612"
+  },
+  {
+    "id": "voicechat-fabric-1-20-1-2-6-24",
+    "name": "voicechat-fabric-1.20.1-2.6.24",
+    "version": "1.0.0",
+    "fileName": "voicechat-fabric-1.20.1-2.6.24.jar",
+    "url": "http://localhost:3001/files/mods/voicechat-fabric-1.20.1-2.6.24.jar",
+    "sha256": "d7cb238ab224d898210cecdf8ea8c0b4cbdf7839ee3cea36f44e63e1f1bd23dc"
+  },
+  {
+    "id": "yet-another-config-lib-fabric-3-1-0-1-20",
+    "name": "yet-another-config-lib-fabric-3.1.0+1.20",
+    "version": "1.0.0",
+    "fileName": "yet-another-config-lib-fabric-3.1.0+1.20.jar",
+    "url": "http://localhost:3001/files/mods/yet-another-config-lib-fabric-3.1.0+1.20.jar",
+    "sha256": "3b97ae954caaca336d96f0cbd4df10e3d38c019f4079080e417620e3c9581732"
   }
 ]

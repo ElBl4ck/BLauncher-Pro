@@ -47,3 +47,19 @@ export interface AuthResult {
   cancelled?: boolean;
   error?: string;
 }
+
+export type GamePhase = 'preparing' | 'downloading' | 'installing' | 'starting' | 'running';
+
+export interface GameProgress {
+  phase: GamePhase;
+  message: string;
+  percent: number; // 0-100
+  speedBps?: number; // bytes por segundo
+}
+
+export interface GameResult {
+  ok: boolean;
+  exitCode?: number | null;
+  crashed?: boolean;
+  error?: string;
+}

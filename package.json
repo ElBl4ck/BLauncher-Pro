@@ -16,11 +16,14 @@
     "dev:server": "node --watch server/index.js",
     "dev": "concurrently -k \"npm run dev:server\" \"npm run dev:vite\" \"wait-on tcp:5173 tcp:3001 && npm run dev:electron\"",
     "start:server": "node server/index.js",
-    "hash": "node server/tools/hash.js"
+    "hash": "node server/tools/hash.js",
+    "build:mods": "node server/tools/buildMods.js"
+    
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "cors": "^2.8.6",
+    "eml-lib": "^2.7.3",
     "express": "^5.2.1",
     "msmc": "^5.0.5",
     "react": "^19.2.8",
